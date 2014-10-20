@@ -1,0 +1,22 @@
+{
+  "name": "simditor-app-toolbar",
+  "version": "1.0.0",
+  "description": "simditor toolbar for tower app",
+  "main": "src/simditor-app-toolbar.coffee",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mycolorway/simditor-app-toolbar.git"
+  },
+  "author": "tinyfive",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mycolorway/simditor-app-toolbar/issues"
+  },
+  "homepage": "https://github.com/mycolorway/simditor-app-toolbar",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-coffee": "~0.10.1",
+    "grunt-umd": "2.x"
+  }
+}
