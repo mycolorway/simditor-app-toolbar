@@ -58,6 +58,9 @@ class AppToolbar extends SimpleModule
         id: @editor.id
         buttons: @config
 
+    @editor.on 'blur', (e) =>
+      @bridge.callHandler 'dismissSimditorToolbar'
+
     @editor.toolbar.on 'buttonstatus', (e, button) =>
       @bridge.callHandler 'updateSimditorButton',
         name: button.name
