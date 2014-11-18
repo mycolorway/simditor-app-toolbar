@@ -1,7 +1,7 @@
 
 class AppToolbar extends SimpleModule
 
-  @className: 'AppToolbar'
+  @pluginName: 'AppToolbar'
 
   opts:
     bridge: null
